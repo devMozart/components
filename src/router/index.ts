@@ -13,6 +13,11 @@ const router = createRouter({
       path: '/hackertext',
       name: 'hackertext',
       component: () => import('../views/HackerTextView.vue')
+    },
+    {
+      path: '/psychedelic-cards',
+      name: 'psychedelic-cards',
+      component: () => import('../views/PsychedelicCardsView.vue')
     }
   ]
 })
