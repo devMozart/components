@@ -44,7 +44,7 @@ const activeLineStyle = computed(() => {
 nav {
   position: relative;
   display: grid;
-  grid-template-rows: repeat(4, 57px);
+  grid-template-rows: repeat(5, 57px);
   background: #373d49;
   color: white;
   height: 100dvh;

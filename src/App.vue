@@ -8,6 +8,10 @@ const menuItems = [
     path: '/'
   },
   {
+    name: 'Image mask',
+    path: '/image-mask'
+  },
+  {
     name: 'Psychedelic cards',
     path: '/psychedelic-cards'
   },

@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/psychedelic-cards',
       name: 'psychedelic-cards',
       component: () => import('../views/PsychedelicCardsView.vue')
+    },
+    {
+      path: '/image-mask',
+      name: 'image-mask',
+      component: () => import('../views/ImageMaskView.vue')
     }
   ]
 })
